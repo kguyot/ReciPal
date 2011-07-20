@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ReciPal</string>
+	<string name="share">Share</string>
+	<string name="add">Add</string>
+	<string name="edit">Edit</string>
+	<string name="delete">Delete</string>
+	<string name="random">Random</string>
+	<string name="ok">Ok</string>
+	<string name="cancel">Cancel</string>
+	<string name="recipename">Recipe Name</string>
+	<string name="save">save</string>
+	<string name="filterHint">Search</string>
+	<string name="recipeprep">Recipe Preparation</string>
+	<string name="search">Search</string>
+	<string name="recipes">Recipes</string>
+	<string name="alphabetical">A..Z</string>
+	<string name="rating">Rating</string>
+	<string name="ingredients">Ingredients</string>
+	<string name="bump">Bump</string>
+	<string name="bumprecieve">Receive</string>
+	<string name="bumpsend">Send</string>
+	<string name="receiving_recipe">Receiving Recipe</string>
+	<string name="about">About</string>
+	<string name="byname">Kevin Guyot</string>
+	<string name="byemail">kguyot@gmail.com</string>
+	<string name="sharerecipal">Share ReciPal</string>
+	<string name="abouttext">Overview:\nRecipal allows you to create, share,
+		rate, search and store recipes locally on your device.
+		Storing the recipes locally allows access to your recipes even with out being
+		connected
+		to the Internet.\n\nFAQ\n\nRecipe Searching:\nRecipes can be
+		searched. However
+		the search only searches the recipe titles\n\nRecipe
+		Sharing:\nRecipes
+		can be shared by Bumping them.
+		However the image will
+		not be
+		transfered.\nSend: Send a recipe by clicking the
+		send icon in
+		the menu
+		when viewing the recipe.\nReceive: To receive
+		a recipe
+		press the receive
+		icon on the main dashboard.\n\nView:\nWhen viewing all
+		recipes, if you
+		shake the device it will load a random recipe.
+	</string>
+</resources>

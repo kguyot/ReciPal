@@ -1,0 +1,25 @@
+Description
+--------------------------------------------------
+Recipal allows you to create, share, rate, search and store recipes locally on your device.  
+Storing the recipes locally allows access to your recipes even with out being connected 
+to the Internet.  
+
+You can share recipes by Bumping your devices together via the integrated Bump Api.
+Recipes are currently searchable by the name of the recipe. If you ever are at a lost
+for what to cook, when viewing all your recipes you can shake the device and it 
+will randomly choose a recipe for you.
+
+
+Recent Changes
+--------------------------------------------------
+*Initial Release
+-Bump Recipes
+-Search Recipe Titles
+-Sort Alphabetical or by Rating
+-Create Recipes
+-Random Recipe
+-Rate Recipes
+
+Promo Text
+--------------------------------------------------
+Store your recipes in ReciPal and share them with your friends!

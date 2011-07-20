@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_gravity="center_horizontal"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<RelativeLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/relativeLayout1"
+		android:padding="5dp" android:background="#000000">
+		<ImageView android:src="@drawable/recipal"
+			android:layout_height="wrap_content" android:id="@+id/appIcon"
+			android:layout_alignParentLeft="true" android:layout_width="wrap_content"
+			android:layout_centerVertical="true"></ImageView>
+	</RelativeLayout>
+	<LinearLayout android:id="@+id/tableLayout1"
+		android:orientation="vertical" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_gravity="center">
+		<LinearLayout android:id="@+id/firstrow"
+			android:orientation="horizontal" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center"
+			android:paddingTop="10dp" >
+			<RelativeLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:id="@+id/textView1"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:layout_centerHorizontal="true" android:text="@string/recipes"
+					android:layout_below="@+id/viewrecipes" />
+				<ImageButton android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:layout_centerHorizontal="true"
+					android:id="@+id/viewrecipes" android:hapticFeedbackEnabled="true" android:background="@drawable/db_recipe"></ImageButton>
+			</RelativeLayout>
+			<RelativeLayout android:paddingRight="50dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<RelativeLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:id="@+id/textView4"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:layout_centerHorizontal="true" android:layout_below="@+id/bumprecipe" android:text="@string/bumprecieve"/>
+				<ImageButton android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:layout_centerHorizontal="true"
+					android:id="@+id/bumprecipe" android:background="@drawable/db_bump"></ImageButton>
+			</RelativeLayout>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/spacer"
+			android:orientation="horizontal" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center"
+			android:paddingBottom="50dp"/>
+		<LinearLayout android:id="@+id/secondrow"
+			android:orientation="horizontal" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center">
+			<RelativeLayout android:layout_gravity="center"
+				android:layout_width="wrap_content" android:layout_height="wrap_content">
+				<TextView android:id="@+id/textView3"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:text="@string/add" android:layout_centerHorizontal="true"
+					android:layout_below="@+id/addrecipe" />
+				<ImageButton android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:layout_centerHorizontal="true"
+					android:id="@+id/addrecipe" android:background="@drawable/db_add"></ImageButton>
+			</RelativeLayout>
+			<RelativeLayout android:layout_gravity="center"
+				android:paddingRight="50dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<RelativeLayout android:layout_gravity="center"
+				android:layout_width="wrap_content" android:layout_height="wrap_content">
+				<TextView android:id="@+id/textView2"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:text="@string/search" android:layout_centerHorizontal="true"
+					android:layout_below="@+id/searchrecipe" />
+				<ImageButton android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:layout_centerHorizontal="true"
+					android:id="@+id/searchrecipe" android:background="@drawable/db_search" android:clickable="true"/>
+			</RelativeLayout>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/spacer2"
+			android:orientation="horizontal" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center"
+			android:paddingBottom="50dp"/>
+		<LinearLayout android:id="@+id/thridrow"
+			android:orientation="horizontal" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center">
+			<RelativeLayout android:layout_gravity="center"
+				android:layout_width="wrap_content" android:layout_height="wrap_content">
+				<TextView android:id="@+id/textView5"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:text="@string/about" android:layout_centerHorizontal="true"
+					android:layout_below="@+id/about" />
+				<ImageButton android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:layout_centerHorizontal="true"
+					android:id="@+id/about" android:background="@drawable/db_info"></ImageButton>
+			</RelativeLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
+

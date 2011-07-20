@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@+id/loading"
+	android:oneshot="false" xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:drawable="@drawable/frame1" android:duration="50" />
+	<item android:drawable="@drawable/frame2" android:duration="50" />
+	<item android:drawable="@drawable/frame3" android:duration="50" />
+	<item android:drawable="@drawable/frame4" android:duration="50" />
+	<item android:drawable="@drawable/frame5" android:duration="50" />
+	<item android:drawable="@drawable/frame6" android:duration="50" />
+	<item android:drawable="@drawable/frame7" android:duration="50" />
+	<item android:drawable="@drawable/frame8" android:duration="50" />
+</animation-list> 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView 
+	    android:id="@+id/RecipeImage"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:layout_alignParentLeft="true" 
+	    android:adjustViewBounds="true" 
+	    android:scaleType="fitXY" 
+	    android:maxHeight="55dp" 
+	    android:maxWidth="55dp" 
+	    android:minHeight="55dp" 
+	    android:minWidth="55dp" 
+	    android:padding="5dp" android:src="@drawable/icon"/>
+    <TextView 	     
+	    android:id="@+id/RecipeName" 
+	    android:text="Recipe Name"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:layout_toRightOf="@+id/RecipeImage" 
+	    android:layout_alignTop="@+id/RecipeImage"/>
+    <RatingBar 
+   	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:isIndicator="true"
+	    style="?android:attr/ratingBarStyleSmall" 
+	    android:layout_toRightOf="@+id/RecipeImage" 
+	    android:layout_below="@+id/RecipeName" android:id="@+id/RecipeRating"/>
+</RelativeLayout>

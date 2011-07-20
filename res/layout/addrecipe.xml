@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<RelativeLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/relativeLayout1"
+		android:background="#000000" android:padding="5dp">
+		<ImageView android:src="@drawable/recipal"
+			android:layout_height="wrap_content" android:id="@+id/imageView1"
+			android:layout_alignParentLeft="true" android:layout_width="wrap_content"
+			android:layout_centerVertical="true"></ImageView>
+		<ImageView android:clickable="true" android:src="@drawable/add"
+			android:layout_alignBottom="@+id/imageView1" android:layout_height="wrap_content"
+			android:id="@+id/ibAddIngred" android:layout_width="wrap_content"
+			android:paddingRight="5dp" android:layout_alignParentRight="true"
+			android:layout_alignTop="@+id/imageView1"></ImageView>			
+	</RelativeLayout>
+	<ScrollView android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:layout_below="@+id/relativeLayout1"
+		android:paddingTop="5dp">
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+			<Button android:id="@+id/dialogSave" android:text="@string/save"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_below="@+id/dialogPrep" android:layout_alignLeft="@+id/dialogPrep"></Button>
+			<ImageView android:clickable="true" android:minWidth="75dp"
+				android:maxWidth="75dp" android:maxHeight="75dp" android:padding="5dp"
+				android:id="@+id/dialogImage" android:minHeight="75dp"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:adjustViewBounds="true" android:src="@drawable/noimage"
+				android:layout_alignParentLeft="true"></ImageView>
+			<EditText android:id="@+id/dialogName"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:hint="@string/recipename" android:layout_toRightOf="@+id/dialogImage"
+				android:layout_alignTop="@+id/dialogImage"
+				android:layout_alignBottom="@+id/dialogImage"></EditText>
+			<RatingBar android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/dialogRating"
+				android:layout_below="@+id/dialogImage" android:layout_alignLeft="@+id/dialogImage"></RatingBar>
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/ingredTitle"
+				android:layout_below="@+id/dialogRating" android:layout_alignLeft="@+id/dialogRating"
+				android:textSize="16dp" android:textStyle="bold"
+				android:paddingLeft="5dp" android:textColor="#0099FF" android:text="@string/ingredients" />
+			<LinearLayout android:layout_height="wrap_content" android:orientation="vertical"
+				android:layout_width="match_parent" android:layout_below="@+id/ingredTitle"
+				android:layout_alignLeft="@+id/ingredTitle" android:id="@+id/ingredientList" />
+			<TextView android:text="@string/recipeprep"
+				android:textStyle="bold" android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:paddingLeft="5dp"
+				android:textSize="16dp" android:id="@+id/recipepreptitle"
+				android:textColor="#0099FF" android:layout_below="@+id/ingredientList"
+				android:layout_alignLeft="@+id/ingredientList" />
+			<EditText android:id="@+id/dialogPrep" android:lines="5"
+				android:scrollbars="vertical" android:scrollbarSize="5dp"
+				android:scrollbarAlwaysDrawVerticalTrack="true"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:scrollbarStyle="insideOverlay" android:hint="@string/recipeprep"
+				android:layout_below="@+id/recipepreptitle"
+				android:layout_alignLeft="@+id/recipepreptitle"></EditText>
+		</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>

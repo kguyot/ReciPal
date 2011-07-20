@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" android:paddingBottom="5dp" android:paddingRight="5dp">
+	<ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/ibDeleteIngred" android:layout_alignParentRight="true" android:background="@drawable/delete"></ImageButton>
+	<TextView android:layout_height="wrap_content" android:id="@+id/IngredientDesc" android:text="Ingredient Desc" android:layout_width="wrap_content" android:paddingLeft="10dp" android:layout_toLeftOf="@+id/ibDeleteIngred" android:layout_alignTop="@+id/ibDeleteIngred" android:layout_alignParentLeft="true" android:paddingRight="2dp"></TextView>
+</RelativeLayout>
